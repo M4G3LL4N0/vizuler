@@ -10,11 +10,11 @@ import { Button } from "@/components/ui/Button";
 
 export default function HomePage() {
   return (
-    <>        <div className="mx-auto max-w-6xl px-4 py-4 sm:px-6">
-          <TrustStrip />
-        </div>
-        <MarketingGraphicsStack />
-
+    <div>
+      <div className="mx-auto max-w-6xl px-4 py-4 sm:px-6">
+        <TrustStrip />
+      </div>
+      <MarketingGraphicsStack />
       <Hero />
       <Problem />
       <Solution />
@@ -25,7 +25,7 @@ export default function HomePage() {
       <PricingSection />
       <FAQ />
       <CTA />
-    </>
+    </div>
   );
 }
 
