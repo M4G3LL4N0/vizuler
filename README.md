@@ -1,47 +1,51 @@
 # Vizuler
 
-> **STATUS: UNDOCUMENTED** — this README was generated from the repository's own contents. It records what is present, not what the project intends to become.
-
-## Purpose
+**STATUS: EXPERIMENTAL**
 
 Startup portfolio: vizuler
 
-## What is in this repository
+## Why it exists
 
-Files present at the repository root:
+> Based on https://vizuler.noaerth.com:
 
-- `CLAIM_REGISTER.md`
-- `DECISION_RECORD.md`
-- `FAILURE_REGISTER.md`
-- `LAUNCH_READINESS.md`
-- `LOCAL_REVIEW.md`
-- `NOAERTH_UPGRADE_REPORT.md`
-- `PREMIUM_UI_UX_REPORT.md`
-- `PROOF_LOOP.md`
-- `next-env.d.ts`
-- `next.config.ts`
-- `package.json`
-- `pnpm-lock.yaml`
-- `postcss.config.mjs`
-- `public-site`
-- `src`
-- `startupjourney.md`
-- `tailwind.config.ts`
-- `tsconfig.json`
+## What is in it
 
-## Engineering status
-
-| property | value |
+| | |
 | --- | --- |
-| Primary language | TypeScript |
-| License | not recorded |
-| Last push | 2026-09-28 |
-| Topics | none set |
-| Test suite | not established — no test evidence has been measured |
-| CI | not established — no CI evidence has been measured |
+| Source files | 40 |
+| Test files | 0 |
+| Documentation files | 13 |
+| CI workflows | 0 |
+| Build manifest | package.json |
 
-Nothing in this table is inferred. Where a value could not be read from the repository it says so.
+Observed: 40 source file(s); build via `package.json`.
 
-## Notes
+## Decisions
 
-This repository predates the current documentation standard. The README above is intentionally minimal and factual rather than promotional: it would be easy to write an impressive description here, and nothing in this repository would make it true.
+| Date | Decision | Why |
+| --- | --- | --- |
+| 2026-05-18 | No material product decisions logged this loop | Portfolio documentation batch only |
+
+## Known limitations
+
+Recorded failures, reproduced here rather than omitted:
+
+| Area | Failure | Mitigation |
+| --- | --- | --- |
+| 2026-05-18 | none this loop | n/a |
+
+## Build and run
+
+```bash
+pnpm install
+pnpm build
+pnpm test
+```
+
+## Evidence
+
+Counts above are counted from the repository tree, not asserted. Where a value could not be measured it is omitted rather than estimated.
+
+---
+
+Part of the DUNG30N5 × NOAERTH portfolio. Repository: [`M4G3LL4N0/vizuler`](https://github.com/M4G3LL4N0/vizuler).
